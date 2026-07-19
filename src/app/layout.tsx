@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// Update this once the site is live on its final domain (e.g. https://vamshikrishna.is-a.dev)
-const SITE_URL = "https://vamshikrishna.is-a.dev";
+// Switch to https://vamshikrishna.is-a.dev once the custom domain is claimed and pointed at Vercel.
+const SITE_URL = "https://portfolio-puce-one-80.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
